@@ -112,12 +112,13 @@
     </pluginRepository>
   </pluginRepositories>
 
-  <distributionManagement>
-    <site>
-      <id>jclouds-github-pages-site</id>
-      <url>${maven.site.url.base}/${project.version}</url>
-    </site>
-  </distributionManagement>
+    <distributionManagement>
+        <repository>
+            <id>akqa-releases</id>
+            <name>AKQA Releases</name>
+            <url>http://repo.audiusasite.com/nexus/content/repositories/akqa-releases/</url>
+        </repository>
+    </distributionManagement>
 
   <developers>
     <developer>
